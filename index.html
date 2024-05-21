@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./لقطة شاشة 2024-05-21 001056.png" alt="Bootstrap" width="30" height="24">
+          </a>      
+          <a class="navbar-brand" href="#">Geeks</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Browse
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Landings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accounts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <form class="d-flex input-group w-auto">
+                  <input
+                    type="search"
+                    class="form-control rounded"
+                    placeholder="Search"
+                    aria-label="Search"
+                    aria-describedby="search-addon"
+                  />
+
+                </form>      
+                      </li>
+           
+            </ul>
+            <div class="d-flex align-items-center">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-brightness-high"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+              />
+            </svg>
+          </label>
+              <button data-mdb-ripple-init type="button" class="btn btn-light px-3 me-2">
+                Sign in
+              </button>
+              <button data-mdb-ripple-init type="button" class="btn  me-3" style="background-color: #6610f2 ; color: azure;">
+                Sign up 
+              </button>
+         
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container  mt-5">
+  <div class="row">
+    <div class="col item1">
+<h1>Become a Vanilla JavaScript Developer
+</h1>  
+<h4>In this tutorial, we are going to learn about JavaScript (Vanilla JS) - for building incredible, powerful JavaScript applications</h4>
+<p ><img  src="./لقطة شاشة 2024-05-21 005401.png" alt="" srcset="" width="15vw"> 4 Hours</p>
+<p ><img src="./لقطة شاشة 2024-05-21 005410.png" alt="" srcset="" width="15vw"> 12 Videos</p>
+<p ><img src="./لقطة شاشة 2024-05-21 005410.png" alt="" srcset="" width="15vw"> 10 Enrolled</p>
+<button type="button" class="btn btn-success">Watch Preview</button>
+
+
+</div>
+<div class="col-sm-6 col-12">
+  <div class="card" >
+        <article class="card-body">
+          <h3 class="card-title mb-4 mt-1 ">Create A free Account </h3>
+          <p class="icon">
+            <a  href="" class="btn btn-secondary mt-2 " > <i class="fab fa-google " style="color: red;"></i>  Google</a>
+            <a href="" class="btn btn-secondary mt-2" > <i class="fab fa-twitter" style="color: rgb(0, 200, 255);"></i>  Twitter</a>
+            <a href="" class="btn btn-secondary mt-2" > <i class="fab fa-facebook-f" style="color: blue;"></i> facebook</a>
+          </p>
+          <hr>
+          <form>
+            <div class="form-group mt-4">
+                <input name="" class="form-control" placeholder="Email " type="email">
+            </div> 
+            <div class="form-group mt-4">
+                <input class="form-control" placeholder="Password" type="password">
+            </div>                                
+            <div class="row">
+                <div class="col-12 mt-4">
+                  <div class="d-grid align-items-center">
+                    <button class="btn" type="button" style="background-color: #6610f2 ; color: azure;">Start Courses for Free</button>
+                  </div>
+                </div>
+                                           
+            </div>                                                                  
+        </form>
+        </article>
+        </div> 
+       </div>
+
+  </div>
+
+  <div class="row mt-5 ">
+    <div class="col-12 col-sm-3 ">
+      <p ><img  src="./لقطة شاشة 2024-05-21 022859.png" alt="" srcset="" width="15vw"> Shareable Certificate</p>
+
+    </div>
+    <div class="col-12 col-sm-3 ">
+      <p ><img  src="./لقطة شاشة 2024-05-21 022859.png" alt="" srcset="" width="15vw"> Flexible Deadlines
+      </p>
+
+    </div>
+    <div class="col-12 col-sm-3 ">
+      <p ><img  src="./لقطة شاشة 2024-05-21 022859.png" alt="" srcset="" width="15vw"> 100% Online Courses</p>
+
+    </div>
+    <div class="col-12 col-sm-3 ">
+      <p ><img  src="./لقطة شاشة 2024-05-21 022859.png" alt="" srcset="" width="15vw"> Approx.24 hours</p>
+
+    </div>
+  </div>
+  <div class="row" style="background-color:#e2e8f0;">
+    <div class="col-12 text-center " >
+      <p style="color:rgb(113, 61, 187) ;">COURSE DESCRIPTION</p>
+      <h2>What will you learn?</h2>
+      <p>Vanilla JS is a fast, lightweight, cross-platformframework for building incredible, powerful JavaScript applications
+      </p>
+
+    </div>
+
+    
+    
+    <div class="col-12 col-sm-6  mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title"> <img  src="./لقطة شاشة 2024-05-21 024910.png" alt="" srcset="" width="50vw" height="50vh">     Introduction to JavaScript
+           <br> <span style="font-size: xx-small; margin-left: 60px;">    COURSES-1 6 LESSONS 1 HOUR 12 MIN
+          </span></h4>
+          
+          <p class="card-text">     In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis felis dignissim, luctus libero ornare
+          </p>
+          <a href="http://">    View Chapter Details +
+          </a>
+        </div>
+      </div>
+  
+
+    </div>
+
+    <div class="col-12 col-sm-6  mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title"> <img  src="./لقطة شاشة 2024-05-21 031322.png" alt="" srcset="" width="50vw" height="50vh">     JavaScript Beginning
+           <br> <span style="font-size: xx-small; margin-left: 60px;">    4 LESSONS 32 MIN COURSES-2
+          </span></h4>
+          
+          <p class="card-text">    Malesuada fames ac turpis egesta mpor tempus tincidunt. Aliquam congue lacus ac tellus consectetur malesuada.
+
+          </p>
+          <a href="http://">    View Chapter Details +
+          </a>
+        </div>
+      </div>
+      </div>
+  
+      <div class="col-12 col-sm-6  mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"> <img  src="./لقطة شاشة 2024-05-21 031650.png" alt="" srcset="" width="50vw" height="50vh">      Variables and Constants
+  
+             <br> <span style="font-size: xx-small; margin-left: 60px;">    COURSES-3 8 LESSONS 10 MIN
+            </span></h4>
+            
+            <p class="card-text">    Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare turpis vequet elit nec, imperdiet lectuna liquam qs
+  
+            </p>
+            <a href="http://">    View Chapter Details +
+            </a>
+          </div>
+        </div>
+  
+      </div>
+
+      <div class="col-12 col-sm-6  mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title"> <img  src="./لقطة شاشة 2024-05-21 032028.png" alt="" srcset="" width="50vw" height="50vh">     Types and Operators
+
+  
+             <br> <span style="font-size: xx-small; margin-left: 60px;">    COURSES-4 10 LESSONS 32 MIN
+
+            </span></h4>
+            
+            <p class="card-text">   In lobortis quam eu augue spendisse imperdiet nec orci ipsum, tempus pharetra posuere imperdiet, lacinia a nisl.
+  
+            </p>
+            <a href="http://">    View Chapter Details +
+            </a>
+          </div>
+        </div>
+  
+
+      </div>
+    </div>
+ 
+  <div class="row mt-5 ins">
+    <div class="col-12 col-sm-6 ins-text">
+      <p style="color:rgb(113, 61, 187) ;">    YOUR INSTRUCTOR
+      </p>
+      <h4>Hi, I'm <span style="color:rgb(113, 61, 187) ;">James Davies,</span> I will be taking you through lessons.
+    </h4>
+<p>Create beautiful website with this Geeks UI template. Get started building a site today.</p>
+<hr>
+<div class="ulstyle">
+<ul>
+  <li> <h1>45</h1></li>
+  <li><p>Lessons</p></li>
+</ul>
+<ul>
+  <li> <h1>10,500+</h1></li>
+  <li><p>Students</p></li>
+</ul>
+<ul>
+  <li> <h1>    12+
+  </h1></li>
+  <li><p>Learning Hours</p>
+  </li>
+</ul>
+</div>
+
+    </div>
+    <div class="col">
+
+      <img src="./لقطة شاشة 2024-05-21 032707.png" alt="" srcset="">
+    </div>
+
+
+  </div>
+<div class="row text-center mt-5">
+<div class="col-12">
+  <p style="color:rgb(113, 61, 187) ;">TRUSTED BY TOP-TIER PRODUCT COMPANIES</p>
+</div>
+<div class="col-sm-2 col-6"> <img src="./لقطة شاشة 2024-05-21 035155.png" alt="" srcset="" height="50vh"></div>
+<div class="col-sm-2 col-6"><img src="./لقطة شاشة 2024-05-21 035205.png" alt="" srcset=""  height="50vh"></div>
+<div class="col-sm-2 col-6"><img src="./لقطة شاشة 2024-05-21 035209.png" alt="" srcset=""  height="50vh"></div>
+<div class="col-sm-2 col-6"><img src="./لقطة شاشة 2024-05-21 035212.png" alt="" srcset=""  height="50vh"></div>
+<div class="col-sm-2 col-6"><img src="./لقطة شاشة 2024-05-21 035216.png" alt="" srcset=""  height="50vh"></div>
+<div class="col-sm-2 col-6"><img src="./لقطة شاشة 2024-05-21 035220.png" alt="" srcset="" height="50vh"></div>
+
+
+
+</div>
+</div>
+<!-- Footer -->
+<footer class="text-center text-lg-start  text-muted ">
+
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3 fotstyle">
+        <div class="col-sm-3 col-12  mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="./لقطة شاشة 2024-05-21 001056.png" alt="Bootstrap" width="30" height="24">
+            Geeks
+          </h6>
+          <p>
+            Geek is feature-rich components and beautifully Bootstrap UIKit for developers, built with bootstrap responsive framework.
+          </p>
+          <a href="" class="me-4 ">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" class="me-4 ">
+            <i class="fab fa-twitter"></i>
+          </a>       
+          <a href="" class="me-4 ">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class=" col-sm-3 col-6 ">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Company
+                    </h6>
+          <p>
+            About
+          </p>
+          <p>
+            Pricing          </p>
+          <p>
+            Blog          </p>
+          <p>
+            Careers          </p>
+            
+            <p>Contact</p>
+        </div>
+
+        <div class=" col-sm-3 col-6 ">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Support          </h6>
+          <p>
+            Help and Support          </p>
+          <p>
+            Become Instructor          </p>
+          <p>
+            Get the app
+          </p>
+          <p>FAQ's
+          </p>
+          <p>Tutorial</p>
+        </div>
+        <div class="col-sm-3 col-12  mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Get in touch
+          </h6>
+          <p><i class="fas fa-home me-3"></i> 339 McDermott Points Hettingerhaven, NV 15283
+          </p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            Email: support@geeksui.com
+
+          </p>
+          <p><i class="fas fa-phone me-3"></i> Phone: (000) 123 456 789</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <div class="d-flex  p-4 justify-content-between" >
+  <p>  © 2024 Copyright: <a class="text-reset fw-bold" href="https://mdbootstrap.com/">GeeksUI.com</a>
+  </p>
+
+  <p>Privacy Policy</p>
+  <p>Cookie Notice</p>
+  <p>Do Not Sell My Personal Information</p>
+  <p>Terms of Use</p>
+
+
+
+</div>
+
+  
+</footer>
+<!-- Footer -->
+</body>
+
+</html>
